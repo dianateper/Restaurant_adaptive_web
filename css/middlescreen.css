@@ -1,0 +1,92 @@
+body{
+	width: 153%;
+}
+
+
+.menu ul li div {
+	display: none;
+}
+.menu ul li a:hover + div{
+	display: block;
+}
+#header .button-list ul{
+	display: grid;
+	justify-items: stretch;
+}
+
+#header .button-list ul a {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.nav{
+	margin-bottom: 125px;
+}
+#about-section a,#menu a,.btn, .footer-nav, .button-list ul li a{
+	font-size: 18px;
+}
+.menu ul a{
+    font-size: 16px;
+}
+#about-section p, #menu p{
+	font-size: 22px;
+	line-height: 35px;
+}
+
+#about-section h4 {
+    padding-top: 60px;
+}
+
+#menu p,  #about-section p{
+	text-align: justify;
+}
+.about-restaurant .read-more-btn{
+	margin-top: 20px;
+}
+#reservations ul{
+	grid-template-columns: repeat(auto-fill,minmax(100%, 1fr));
+	grid-gap: 60px;
+}
+.form-img {
+    top: 5px;
+    left: 425px;
+}
+#header .menu ul {
+    grid-template-columns: repeat(auto-fill,minmax(25%, 1fr));
+    grid-gap: 20px;
+}
+
+#header .menu ul li a{
+	font-size: 24px;
+}
+.events .img-date-icon {
+    top: 30px;
+}
+
+.time {
+    top: 30px;
+    left: 290px;
+}
+
+
+#footer ul{
+	margin-left: 150px;
+}
+
+#footer h7{
+	font-size: 26px;
+}
+#footer ul li a, #footer p, #footer p a{
+	font-size: 20px;
+}
+
+.contact{
+	width: 35%;
+}
+#reservations h5{
+	font-size: 26px;
+
+}
+
+#reservations h6{
+	font-size: 20px;
+}

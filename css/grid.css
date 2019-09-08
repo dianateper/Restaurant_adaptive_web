@@ -1,0 +1,60 @@
+#header{
+  grid-area: header;
+}
+#about-section{
+  grid-area: about-section;
+}
+#menu{
+	  grid-area: menu;
+}
+#reservations{
+	  grid-area: reservations;
+}
+
+#pre-footer{
+	grid-area: prefooter;
+}
+
+#footer{
+	grid-area: footer;
+}
+#header .menu ul{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(17%, 1fr));
+	grid-gap: 20px;
+}
+#header .button-list ul{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+#reservations ul{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(35%, 1fr));
+	grid-gap: 30px;
+}
+#pre-footer ul{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(50%, 1fr));
+}
+
+.wrapper{
+	display: grid;
+	grid-template-areas: 
+    "header"
+    "about-section"
+    "menu"
+    "reservations"
+    "prefooter"
+    "footer";
+}
+
+#about-section .about-restaurant{
+	display: grid;
+	grid-template-columns: 45%;
+}
+ #menu  .about-restaurant{
+ 	display: grid;
+ }

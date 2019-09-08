@@ -1,0 +1,651 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', serif;
+}
+
+.row:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.conteiner{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+[class*="col-"]{
+	float: left;
+}
+.fnt-sz-36, .logo{
+	font-size: 36px;
+	margin-left: 7px;
+}
+h1{
+	font-size: 52px;
+}
+.fnt-sz-22{
+	font-size: 22px;
+}
+.pd-b-20{
+	padding-bottom: 20px;
+}
+.mg-b-60{
+	margin-bottom: 60px;
+}
+.col-25{
+	width: 25%;
+}
+.col-75{
+	width: 75%;
+}
+.m-l-25{
+	margin-left: 25px;
+}
+.mg-b-20{
+	margin-bottom: 20px;
+}
+.mg-t-60{
+	margin-top: 60px;
+}
+.mg-t-70{
+	margin-top: 70px;
+}
+.mg-b-190{
+	margin-bottom: 190px;
+}
+.pd-t-120{
+	padding-top: 120px;
+}
+.mg-b-75{
+	margin-bottom: 75px;
+}
+
+.f-r{
+	float: right;
+}
+.f-l, .menu ul>li{
+	float: left;
+}
+.bg-w{
+	background-color: white;
+}
+
+.head .btn ,.more, .book-a-table, #reservations .btn{
+	border-radius: 3px;
+}
+
+.btn-facebook, .btn-tweet{
+	border-radius: 4px;
+}
+
+.menu{
+	margin-top: 10px;
+}
+
+#header .see-menu{
+	margin-left: 290px;
+}
+#header .find-a-table{
+	margin-right: 290px;
+}
+
+ a, #header {
+	color: white;
+} 
+a{
+	text-decoration: none;
+	font-size: 15px;	
+}
+#header .rotate a{
+	font-weight: bold;
+	font-size: 20px;
+}
+.menu a, .uper{
+	text-transform: uppercase;
+}
+.body{
+	padding: 0;
+	margin:0;
+	font-family: "PT Sans"
+	font-size: 13px;
+}
+
+
+.menu ul li div{
+	 
+	 margin-top: 15px;
+}
+
+.menu ul li div, .events div a{
+	font-style: italic;
+}
+
+#header{
+	background-image: url("../img/header.png");
+
+}
+.bold, a, h6, h5, h4, .data-time, h7{
+	font-weight: bold;
+}
+
+.orange, h6,.events div a,.contact>p>a{
+	color: #df5c33;
+}
+ul{
+	list-style-type: none;
+}
+
+.undrl{
+
+	text-decoration: underline;
+}
+.head, h4, h5{
+	text-align: center;
+}
+.nav{
+	margin-bottom: 165px;
+	padding-top: 35px;
+}
+
+ .more{
+ 	margin-right: 50px;
+ }
+.see-menu, .more, .book-a-table{
+	
+	padding: 18 48px;
+}
+
+.see-menu, .more, .book-a-table
+{
+	background-color:#df5c33; 
+}
+.find-a-table{
+	background-color: rgba(0,0,0,0.5);
+	padding: 18 30px;
+}
+
+.btn,.footer-nav{
+	font-size: 13px;
+}
+.details{
+	position: relative;
+	margin-top: 140px; 
+	margin-bottom: 45px;
+}
+.head a,.about-restaurant a {
+	font-size: 12px;
+}
+.rotate{
+	position: absolute;
+	left: 467px;
+	top: 18px;
+	transform: rotate(90deg);
+	font-size: 15px;
+}
+
+#about-section{
+	height: 1000px;
+	
+}
+#about-section, #reservations{
+	background-color: #f7f7f7;
+
+}
+.about-restaurant{
+	color: black;
+	position: relative;
+}
+
+#about-section h4{
+	padding-top: 180px;
+}
+h4{
+	font-size: 26px;
+}
+h6, .about-restaurant p{
+	font-size: 16px;
+}
+h6{
+	margin-bottom: 10px;
+}
+.about-restaurant p{
+	line-height: 25px;
+	padding: 4px;
+}
+
+
+.about-restaurant p:first-child{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.about-restaurant .btn{
+	padding: 18 44px;
+}
+.more{
+	margin-top: 35px;
+}
+
+.back-img div, .p-a{
+	position: absolute;
+}
+
+.img-eric-mcgregor-flickr{
+	background: url("../img/eric-mcgregor-flickr.png");
+	top: 535px;
+	width: 536px;
+	height: 364px;
+}
+.img-glass-of-wine{
+	background: url("../img/glass-of-wine.png");
+	height:497px; 
+	width:635px;
+	top: 120px;
+	left: 485px;
+}
+
+.img-restaurant-kitchen{
+	background: url("../img/restaurant-kitchen.png");
+	width: 284px;
+	height: 232px;
+	top: 667px; 
+	left: 565px;
+}
+
+.img-beef-steak-vegetables{
+	background: url("../img/beef-steak-vegetables.png");
+	width: 241px;
+	height: 232px;
+	top: 667px; 
+	left: 879px;
+}
+
+#menu .more{
+	margin-bottom: 170px;
+}
+
+#menu h4{
+	padding-top: 190px;
+}
+#menu .about-restaurant
+{
+	margin-left: 505px;
+}
+.about-restaurant .read-more-btn{
+	margin-top: 60px;
+}
+.img-steak{
+	background: url("../img/steak.png");
+}
+
+.steak{
+	height: 213px;
+	width: 213px;
+	top: 120px;
+}
+.img-beef-steak{
+	background: url("../img/beef-steak.png");
+	left: 245px;
+}
+
+.img-cup-cakes{
+	background: url("../img/cup-cakes.png");
+	top: 365px;
+	height: 213px;
+	width: 455px;
+}
+
+#menu .back-img{
+	position: absolute;
+	top: 0px;
+	left: -505px;
+
+}
+
+
+.form-section h5{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.form-img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.form-img div {
+position: absolute;
+}
+input[type="text"]{
+	padding: 20px;
+	width: 75%;
+	display: block;
+  	margin: 0 auto;
+  	margin-bottom: 20px;
+  }
+
+#reservations ul li{
+	background-color: white;
+}
+
+
+#reservations ul{
+	margin-bottom: 130px;
+}
+
+.reservation, .form-section .btn{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.form-section .btn{
+	display: block;
+}
+
+.form-section .btn{
+	background-color: black;
+	padding: 20 110px;
+	margin-top: 30px;
+	margin-bottom: 109.4px;
+
+}
+
+.img-user-icon{
+	background: url("../img/user-icon.png");
+	top: 85px;
+	left: 355px;
+	width: 13px;
+	height: 13px;
+}
+
+.reservations .img-date-icon
+{
+	top: 164px;
+	left: 355px;
+}
+
+.reservations .img-time-icon
+{
+	top: 244px;
+	left: 355px;
+}
+.events .img-date-icon{
+	position: absolute;
+	top: 25px;
+	left: 121px;
+}
+
+.events .img-time-icon{
+	position: absolute;
+	top: -2px;
+	left: -18px;
+}
+.img-date-icon{
+	background: url("../img/date-icon.png");
+	width: 13px;
+	height: 13px;
+}
+.img-time-icon{
+	background: url("../img/time-icon.png");
+	width: 14px;
+	height: 14px;
+}
+.img-commensals-icon{
+	background: url("../img/commensals-icon.png");
+	top: 322px;
+	left: 355px;
+	width: 13px;
+	height: 13px;
+}
+.img-live-music-fridays{
+	background-image: url("../img/live-music-fridays.png");
+}
+
+.img-festival{
+	background-image: url("../img/festival.png");
+}
+
+.img-magic-show{
+	background-image: url("../img/magic-show.png");
+}
+
+.img-event{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 30;
+}
+
+.events p{
+	font-size: 14px;
+}
+.event{
+	position: relative;
+}
+
+.data-time{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.data{
+	margin-left: 138px;
+}
+
+.time{
+	position: absolute;
+	top: 26px;
+	left: 240px;
+}
+
+.events div p, .events div a, h6{
+	margin-left: 120px;
+	margin-right: 60px;
+}
+
+.events div p{
+	line-height: 20px;
+}
+.events div a{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+
+.events{
+	position: relative;
+}
+
+.img-divider-line{
+	position: absolute;
+	width: 1px;
+	height: 67px;
+	left: 111px;
+}
+
+
+.img-divider-line-above{
+	background: url("../img/divider-line-above.png"); 
+	top:112px;
+}
+
+.img-divider-line-below{
+	background: url("../img/divider-line-below.png"); 
+	top:232px;
+}
+
+#pre-footer .img-twitter-icon{
+	left: 85px;
+}
+#pre-footer .img-facebook-icon{
+	left: 3px;
+}
+#pre-footer .img-share-icon{
+	top: 4px;
+}
+
+#footer .img-twitter-icon{
+	left: 39px;
+}
+
+#footer .img-facebook-icon{
+	left: 0px;
+}
+
+.img-instagram-icon{
+	background: url("../img/instagram-icon.png"); 
+	width: 14px;
+	height: 15px;
+	left: 75px;
+}
+.img-trip-advisor-icon{
+	background: url("../img/trip-advisor-icon.png"); 
+	position: absolute;
+	width: 22px;
+	height: 13px;
+	left: 113px;
+}
+.img-twitter-icon{
+	background: url("../img/twitter-icon.png"); 
+	width: 12px;
+	height: 11px;
+}
+.img-share-icon{
+	position: absolute;
+}
+.img-facebook-icon{
+	background: url("../img/facebook-icon.png"); 
+	width: 12px;
+	height: 12px;
+}
+
+.pre-footer-btn, .form-section{
+	position: relative;
+}
+#pre-footer h4{
+	margin-top: 110px;
+	margin-bottom: 35px;
+}
+
+
+.choose{
+	position: absolute;
+	top: 0px;
+	left: 364px;
+}
+#pre-footer ul li:first-child{
+	position: relative;
+}
+
+.pre-footer-section p{
+	line-height: 20px;
+	margin-bottom: 55px;
+}
+.pre-footer-section{
+	text-align: center;
+}
+.pre-footer-list{
+	margin-bottom: 120px;
+}
+
+.pre-footer-section a, #footer li>a, #footer p>a{
+	font-weight: normal;
+	font-size: 13px;
+}
+.pre-footer-section .btn{
+	width: 65%;
+}
+
+.conteiner .pre-footer-section:first-child{
+	margin-left: 80px;
+}
+.conteiner .pre-footer-section:last-child{
+	margin-right: 70px;
+}
+.conteiner .pre-footer-section .btn,.pre-footer-btn{
+	margin: 0 auto;
+}
+
+.text-or{
+	margin-top: 195px;
+	margin-left: 95px;
+	color: gray;
+	font-size: 24px;
+}
+.pre-footer-btn{
+	width: 47%;
+}
+.btn-facebook, .btn-tweet{
+	padding:  4 14 4 22px;
+
+}
+.btn-facebook{
+	background-color: #4859a1;
+}
+
+.btn-tweet{
+	background-color: #5794dd;
+}
+
+#footer{
+	background-color: black;
+}
+
+h7,.footer-nav p{
+	color: white;
+}
+
+#footer ul{
+margin-left: 240px;	
+}
+
+#footer ul li{
+	margin-top: 20px;
+}
+
+.footer-nav{
+	padding-top: 55px;
+	padding-bottom:  60px;
+}
+
+.footer-nav ul, .contact{
+	padding-top: 10px;
+}
+.contact{
+	width: 22%;
+	position: relative;
+}
+.contact p{
+	margin-top: 25px;
+	line-height: 20px;
+	margin-bottom: 28px;
+}
+
+.contact .link-connect a{
+	font-weight: bold;
+}
+
+.link-connect{
+	margin-bottom: 120px;
+}
+
+.contact .link-connect>a{
+	font-weight: bold;
+	display: block;
+}
+.contact{
+	margin-right: 20px;
+	position: relative;
+}
+
+.img-link a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.img-link{
+	position: absolute;
+	top: 155px;
+	left: 0px;
+}

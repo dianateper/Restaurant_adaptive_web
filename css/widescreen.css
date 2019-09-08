@@ -1,0 +1,137 @@
+/*Header-------------------------------------------------*/
+
+#header{
+	
+}
+
+.conteiner{
+	width: 1500px;
+}
+
+#header .menu ul {
+    grid-gap: 28px;
+}
+
+#header .menu a,#header .menu ul li div{
+	font-size: 20px;
+}
+.nav {
+    margin-bottom: 133px;
+}
+
+h1{
+	font-size: 60px;
+}
+
+#header .button-list ul li:first-child{
+	margin-left: 200px;
+}
+
+#header .button-list ul li:last-child{
+	margin-right: 200px;
+}
+.details a{
+	font-size: 20px;
+}
+.rotate {
+    left: 749px;
+    top: 27px;
+}
+/*about-section---------------------------------------------------------*/
+#about-section .about-restaurant {
+  
+    grid-template-columns: 50%;
+}
+.about-restaurant h4{
+	font-size: 32px;
+	padding-top: 130px;
+}
+
+.about-restaurant p{
+	font-size: 24px;
+	line-height: 30px;
+}
+.img-glass-of-wine {
+    left: 850px;
+}
+
+.img-beef-steak-vegetables {
+    left: 1248px;
+}
+.img-restaurant-kitchen {
+    left: 851px;
+}
+.more {
+    margin-right: 18px;
+}
+
+/*menu--------------------------------------------------------------------*/
+
+#menu .about-restaurant{
+
+	margin-left: 545px;
+}
+
+
+/*reservationa-------------------------------------------------------------*/
+
+.form-img {
+    left: 240px;
+}
+
+.form-section .btn{
+	text-align: center;
+
+}
+
+/*pre-footer---------------------------------------------------------------*/
+
+.choose {
+    top: -25px;
+    left: 640px;
+}
+
+.btn-facebook, .btn-tweet {
+    padding: 8 18 8 28px;
+}
+
+.pre-footer-btn {
+    width: 33%;
+}
+
+#pre-footer .img-twitter-icon {
+    left: 130px;
+}
+
+#pre-footer .img-share-icon {
+    top: 7px;
+}
+#pre-footer .img-facebook-icon {
+    left: 8px;
+}
+
+
+
+/*footer---------------------------------------------------------------------*/
+
+h7{
+	font-size: 24px;
+}
+
+#footer ul li a{
+	font-size: 20px;
+
+}
+
+.img-link {
+  
+    top: 196px;
+
+}
+#footer p, #footer div a{
+	font-size: 24px;
+	line-height: 30px;
+}
+.contact {
+    width: 35%;
+}
