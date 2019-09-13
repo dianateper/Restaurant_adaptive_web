@@ -1,18 +1,22 @@
 
 #header .menu ul{
-	display: grid;
-	grid-template-columns: repeat(auto-fill,minmax(30%, 2fr));
-	grid-gap: 30px;
+	
+	grid-template-columns: repeat(auto-fill,minmax(100%, 2fr));
+	grid-gap: 0px;
 }
 
 #reservations ul{
-	display: grid;
+	
 	grid-template-columns: repeat(auto-fill,minmax(100%, 2fr));
 	grid-gap: 40px;
 }
+#about-section .about-restaurant {
+    grid-template-columns: 100%;
+}
+
+
 
 #pre-footer ul{
-	display: grid;
 	grid-template-columns: repeat(auto-fill,minmax(100%, 2fr));
 }
 #header .button-list ul{
@@ -20,21 +24,108 @@
 	justify-items: stretch;
 }
 
+
+/*BURGER MENU-----------------------------------------------------------------------------------------*/
+
+ .menu{
+  background-color: black;
+ }
+#header .menu-list{
+ 	position: fixed;
+ 	visibility:hidden;
+ 	top: 60px;
+ 	left: 810px;
+ 	background-color: black;
+ }
+
+.menu-list a:hover{
+ 	color: #df5c33 !important; 
+
+ }
+
+#check-menu:checked ~ .menu-list li{
+  	visibility:visible;
+	display:block;
+} 
+
+.menu-list a{
+ 	display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+
+.check-label{
+    display: block;
+  	position: fixed;
+    top: -17px;
+    left: -95px;
+    width: 100%;
+    line-height: 40px;
+    z-index: 1;
+}
+
+.burger-line{
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    width: 70px;
+    height: 2px;
+    background-color: #df5c33;
+    transition: .5s all;
+}
+.second, .third{
+    top: 75px;
+}
+
+.fourth{
+    top: 85px;
+    
+}
+.five{
+	top: 95px;
+}
+.six{
+	top: 105px;
+
+}
+
+#check-menu:checked ~ .check-label .second{
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~  .check-label .third{
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked  ~ .check-label .fourth, #check-menu:checked  ~ .check-label .five, #check-menu:checked  ~ .check-label .six, #check-menu:checked  ~ .check-label .first{
+    display: none;
+}
+
+
+/*END BURGER MENU-----------------------------------------------------------------------------------------*/
+
+.logo
+{
+	font-size: 80px;
+}
+#header .rotate a {
+   
+    font-size: 40px;
+}
 #header .button-list ul a{
 	margin-right: 0px;
 	margin-left: 0px;
 }
 .nav{
-	margin-bottom: 130px;
+	margin-bottom: 86px;
 }
 .menu ul li div {
 	display: none;
 }
-.menu ul li a:hover + div{
-	display: block;
-}
+
 .menu ul li a{
-font-size: 30px;	
+font-size: 40px;	
 }
 body{
 	width: 132%;
@@ -50,18 +141,35 @@ h1{
 }
 
 .rotate{
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 #menu p{
-	font-size: 60%;
+	font-size: 100%;
 }
+.img-eric-mcgregor-flickr{
+	top: 850px;
+	left: -90px;
+}
+.img-restaurant-kitchen {
+    top: 1250px;
+    left: -85px;
+}
+.img-glass-of-wine {
+    top: 850px;
+}
+
+.img-beef-steak-vegetables{
+	top: 1250px; 
+	left: 205px;
+}
+
 #about-section p{
 	font-size: 150%;
 	line-height: 40px;
 }
 #about-section h4 {
-    padding-top: 40px;
+    padding-top: 125px;
     font-size: 35px;
 }
 #menu p,  #about-section p{
@@ -69,8 +177,42 @@ h1{
 }
 .about-restaurant .read-more-btn{
 	margin-top: 20px;
+	 margin-bottom: 900px;
+}
+#menu .back-img{
+	margin-top: 800px;
+}
+#menu .more{
+	margin-bottom: 830px;
+}
+#menu .list-back-img {
+	float: right;
+	top: 50px;
+	left: 745px;
+}
+#menu .img-cup-cakes{
+	top: 162px;
+	left: 752px;
+}
+#menu .img-steak{
+	top: -100px;
+	left: -240px;
 }
 
+#menu .img-beef-steak {
+    left: 500px;
+    top: 326px;
+}
+
+#menu h4{
+	padding-top: 120px;
+}
+#menu a,#about-section a{
+	font-size: 40px;
+}
+#menu .about-restaurant{
+	margin-left: 0px;
+}
 .events .data{
 	font-size: 10px;
 }
@@ -81,7 +223,7 @@ h1{
 .form-section form a{
 	text-align: center;
 }
-#about-section a,#menu a,.btn, .footer-nav, .button-list ul li a{
+.btn, .footer-nav, .button-list ul li a{
 	font-size: 18px;
 }
 .events div a {

@@ -5,7 +5,7 @@
   grid-area: about-section;
 }
 #menu{
-	  grid-area: menu;
+	 grid-area: menu;
 }
 #reservations{
 	  grid-area: reservations;
@@ -53,8 +53,10 @@
 
 #about-section .about-restaurant{
 	display: grid;
-	grid-template-columns: 45%;
+	grid-template-columns: 50%;
 }
- #menu  .about-restaurant{
+ 
+ #menu ul{
  	display: grid;
+
  }
